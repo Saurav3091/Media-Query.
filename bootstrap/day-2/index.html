@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Carousel</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-item {
+      height: 100vh;
+      min-height: 400px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .carousel-caption {
+      bottom: 20%;
+    }
+    .search-box {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Carousel -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    
+    <!-- Slide 1 -->
+    <div class="carousel-item active" style="background-image: url('https://picsum.photos/1600/900?random=1');">
+      <div class="carousel-caption text-center">
+        <h2 class="fw-bold">Adventure in the Mountains</h2>
+        <p>Find the best hiking and camping spots</p>
+        
+        <!-- Search box -->
+        <form class="d-flex search-box bg-white p-2 rounded shadow">
+          <input class="form-control me-2" type="search" placeholder="Search adventures..." aria-label="Search">
+          <button class="btn btn-success" type="submit">Explore</button>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Slide 2 -->
+    <div class="carousel-item" style="background-image: url('https://picsum.photos/1600/900?random=2');">
+      <div class="carousel-caption text-center">
+        <h2 class="fw-bold">Explore Exotic Places</h2>
+        <p>Your adventure starts here</p>
+
+          <!-- Search box -->
+        <form class="d-flex search-box bg-white p-2 rounded shadow">
+          <input class="form-control me-2" type="search" placeholder="Search destinations..." aria-label="Search">
+          <button class="btn btn-danger" type="submit">Discover</button>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Slide 3 -->
+    <div class="carousel-item" style="background-image: url('https://picsum.photos/1600/900?random=3');">
+      <div class="carousel-caption text-center">
+        <h2 class="fw-bold">Unforgettable Journeys</h2>
+        <p>Book now and save more</p>
+
+          <!-- Search box -->
+        <form class="d-flex search-box bg-white p-2 rounded shadow">
+          <input class="form-control me-2" type="search" placeholder="Search destinations..." aria-label="Search">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+
+
+
+
+<div class="container-fluid bg-black">
+  <!-- <nav class="navbar bg-body-tertiary"> -->
+  <div class="container p-2 bg-white">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn bg-success text-white" type="submit">Search</button>
+    </form>
+  </div>
+<!-- </nav> -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
