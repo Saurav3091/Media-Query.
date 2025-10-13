@@ -1,0 +1,13 @@
+/* @media (max-width:576px) {
+    .para {
+        width: 100%;
+    }
+} */
+ @media (max-width:768px) {
+    .full-width {
+        width: 100%;
+    }
+}
+
+
+
