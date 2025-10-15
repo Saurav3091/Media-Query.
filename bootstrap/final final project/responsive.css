@@ -1,0 +1,15 @@
+@media (max-width:440px) {
+    .girl-img {
+        width: auto;
+        margin-top: 20%;
+        /* background-color: black; */
+    }
+}
+
+@media (max-width:301px) {
+    .girl-img {
+
+        height: 400px;
+        margin-top: 70%;
+    }
+}

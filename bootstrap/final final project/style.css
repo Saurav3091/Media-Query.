@@ -1,0 +1,32 @@
+.red-border::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #ff4500;
+    margin-top: 8px;
+    border-radius: 1px;
+}
+
+.second-red-border {
+    border-radius: 200px 0 0 200px;
+    border: 15px solid red;
+
+}
+
+.box {
+    height: 490px;
+    width: auto;
+}
+
+.girl-img {
+    /* margin-top: 10%; */
+    border: 10px solid black;
+    border-radius: 280px 370px 0 250px;
+    margin-top: 15%;
+    margin-left: 2%;
+    width: auto;
+    height: 300px;
+
+
+}
